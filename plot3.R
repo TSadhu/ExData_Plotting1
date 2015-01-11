@@ -1,5 +1,5 @@
 ##plot3
-source("load_data.R")
+source("load.R")
 png(filename = "plot3.png",width = 480, height = 480,units = "px")
 plot(DateTime, Sub_metering_1,type = "l",col = "black",ylab = "Energy sub metering")
 lines(DateTime, Sub_metering_2, col = "red")
